@@ -2,8 +2,6 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
-
 ## Run the Project
 
 In the project directory, you can run:
@@ -20,7 +18,7 @@ $ yarn run start
 $ yarn run build
 ```
 
-### test
+### Test
 
 ```sh
 $ yarn run test
