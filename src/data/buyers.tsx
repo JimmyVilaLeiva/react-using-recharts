@@ -1,6 +1,12 @@
 export const getUsersData = () => {
-  return {
-    activeUsers: 634,
-    inactiveUsers: 124,
-  };
+  return [
+    {
+      name: "activeUsers",
+      value: 634,
+    },
+    {
+      name: "unactiveUsers",
+      value: 66,
+    },
+  ];
 };

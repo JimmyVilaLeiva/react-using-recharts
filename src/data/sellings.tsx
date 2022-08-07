@@ -1,8 +1,6 @@
 export const getSellingWeekly = () => {
   return [
     { week: 21, delivered: 345, returned: 30 },
-    { week: 21, delivered: 345, returned: 30 },
-    { week: 21, delivered: 345, returned: 30 },
     { week: 22, delivered: 645, returned: 40 },
     { week: 23, delivered: 225, returned: 56 },
     { week: 24, delivered: 355, returned: 27 },

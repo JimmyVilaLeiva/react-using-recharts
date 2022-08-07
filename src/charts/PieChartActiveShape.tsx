@@ -1,12 +1,8 @@
 import { useCallback, useState } from "react";
 import { PieChart, Pie, Sector } from "recharts";
+import { getUsersData } from "../data/buyers";
 
-const data = [
-  { name: "Group A", value: 400 },
-  { name: "Group B", value: 300 },
-  { name: "Group C", value: 300 },
-  { name: "Group D", value: 200 },
-];
+const data = getUsersData();
 
 const renderActiveShape = (props: any) => {
   const RADIAN = Math.PI / 180;
@@ -81,7 +77,7 @@ const renderActiveShape = (props: any) => {
   );
 };
 
-export default function PeiChartactiveShape() {
+export default function PieChartactiveShape() {
   const [activeIndex, setActiveIndex] = useState(0);
   const onPieEnter = useCallback(
     (_: any, index: any) => {
